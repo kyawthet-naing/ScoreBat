@@ -9,6 +9,7 @@ class MYAPP extends StatelessWidget {
   @override
   Widget build(BuildContext context) => const MaterialApp(
         home: Home(),
+        title: 'ScoreBat',
         debugShowCheckedModeBanner: false,
       );
 }
